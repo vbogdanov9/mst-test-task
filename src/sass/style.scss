@@ -1,19 +1,22 @@
 @import "libs/modern-normalize.min";
+@import "base/font";
+@import "base/variables";
 
-// @import "base/font";
-// @import "base/variables";
+* {
+  color: var(--text-color, #ffffff);
+}
 
 // @import "blocks/logo";
 // @import "blocks/nav";
 
-// @import "blocks/header";
+@import "blocks/header";
 
 // section {
 //   min-height: 300px;
 //   padding: 40px;
 // }
 
-// @import "blocks/hero-iteration-4";
+@import "blocks/main";
 // @import "blocks/hero-iteration";
 // @import "blocks/hero-from-idea";
 

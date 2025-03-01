@@ -1,0 +1,11 @@
+.main {
+  display: flex;
+  height: 1009px;
+  background-color: var(--main-bg-color, #222222);
+  &__picture {
+    width: 39.73958333%;
+  }
+  &__content {
+    flex: 1;
+  }
+}
