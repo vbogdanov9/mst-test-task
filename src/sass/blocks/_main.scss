@@ -3,9 +3,19 @@
   height: 1009px;
   background-color: var(--main-bg-color, #222222);
   &__picture {
+    display: block;
     width: 39.73958333%;
+    object-fit: cover;
+    img {
+      width: 100%;
+    }
+  }
+  &__content,
+  header {
+    width: 60.26041667%;
   }
   &__content {
+    position: relative;
     flex: 1;
   }
 }
