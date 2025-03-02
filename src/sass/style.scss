@@ -3,7 +3,13 @@
 @import "base/variables";
 
 * {
+  // outline: 1px solid blue;
+}
+
+body {
   color: var(--text-color, #ffffff);
+  font-family: "Prata Regular";
+  font-weight: 400;
 }
 
 // @import "blocks/logo";

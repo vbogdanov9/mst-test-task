@@ -1,12 +1,33 @@
 header {
   position: fixed;
   top: 0;
-  // width: 60.26041667%;
-  padding-top: 2rem;
-  // padding-left: 10rem;
-  // padding-left: 14.08815903%;
-  padding-left: 8.489583333%;
-  padding-right: 13rem;
+  padding-top: 1.5625%; //30px
+  padding-left: 8.489583333%; //163px
+  width: 49.27083333%; //946px;
   display: flex;
   justify-content: space-between;
+  align-items: center;
+  text-transform: uppercase;
+  z-index: 100;
+}
+.logo {
+  font-size: 2.25rem;
+  line-height: 150%;
+  letter-spacing: 0.03em;
+  text-align: center;
+}
+nav {
+  .menu {
+    display: flex;
+    gap: 29px; //;6.791569087%
+    font-family: "Arial italic";
+    font-style: italic;
+    font-size: 1rem;
+    line-height: 150%;
+    letter-spacing: 0.04em;
+    text-align: right;
+
+    // &__item {
+    // }
+  }
 }

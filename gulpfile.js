@@ -69,7 +69,6 @@ gulp.task("watch", function () {
   gulp.watch("src/images/**/*").on("all", gulp.parallel("images"));
 });
 
-
 // так пофиксил запуск  gulp, добавил задачу listen
 gulp.task("listen", gulp.parallel("watch", "server"));
 
