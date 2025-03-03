@@ -1,21 +1,24 @@
 header {
   position: fixed;
   top: 0;
-  padding-top: 1.5625%; //30px
-  padding-left: 8.489583333%; //163px
-  width: 49.27083333%; //946px;
+  padding: 1.5625% 8.489583333% 0 8.489583333%; //30px 163px
+
+  width: 1109px; //49.27083333%;
   display: flex;
   justify-content: space-between;
   align-items: center;
   text-transform: uppercase;
   z-index: 100;
+  background-color: rgba(34, 34, 34, 0.8);
 }
+
 .logo {
   font-size: 2.25rem;
   line-height: 150%;
   letter-spacing: 0.03em;
   text-align: center;
 }
+
 nav {
   .menu {
     display: flex;
@@ -26,8 +29,12 @@ nav {
     line-height: 150%;
     letter-spacing: 0.04em;
     text-align: right;
+  }
+}
 
-    // &__item {
-    // }
+@media (max-width: 1200px) {
+  header {
+    width: 100%;
+    padding-right: 8.489583333%;
   }
 }

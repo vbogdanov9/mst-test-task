@@ -18,6 +18,13 @@
       </nav>
     </header>
     <section class="main">
+      <div class="main__picture">
+        <picture>
+          <source media="(max-width: 576px)" srcset="images/main-picture.png" />
+          <source media="(min-width: 577px)" srcset="images/main-picture.png" />
+          <img src="images/main-picture.png" alt="main-picture" />
+        </picture>
+      </div>
       <div class="main__content">
         <div class="main__title">Lorem ipsum dolor sit amet</div>
         <div class="main__subtitle">sed do eiusmod tempor</div>
@@ -52,13 +59,7 @@
             <span class="bullet__text_normal">adipiscing elit sed do</span>
           </li>
         </ul>
-      </div>
-      <div class="main__picture">
-        <picture>
-          <source media="(max-width: 576px)" srcset="images/main-picture.png" />
-          <source media="(min-width: 577px)" srcset="images/main-picture.png" />
-          <img src="images/main-picture.png" alt="main-picture" />
-        </picture>
+        <button class="main__button">order</button>
       </div>
     </section>
   </body>
