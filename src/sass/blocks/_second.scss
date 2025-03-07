@@ -1,0 +1,14 @@
+.second {
+  background-color: #282829;
+  padding-top: 100px;
+  display: flex;
+  &__picture1 {
+    width: 32.39583333%;
+  }
+  &__content {
+    width: 37.5%;
+  }
+  &__picture2 {
+    width: 30.10416667%;
+  }
+}

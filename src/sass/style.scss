@@ -3,7 +3,14 @@
 @import "base/variables";
 
 * {
+  margin: 0;
   // outline: 1px solid blue;
+}
+
+picture img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
 }
 
 body {
@@ -15,9 +22,7 @@ body {
   }
 }
 
-// @import "blocks/logo";
-// @import "blocks/nav";
-
+@import "blocks/buttons";
 @import "blocks/header";
 
 // section {
@@ -26,6 +31,7 @@ body {
 // }
 
 @import "blocks/main";
+@import "blocks/second";
 // @import "blocks/hero-iteration";
 // @import "blocks/hero-from-idea";
 

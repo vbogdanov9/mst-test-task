@@ -2,8 +2,6 @@
 const menuItems = document.querySelectorAll(".menu__item");
 if (menuItems.length > 0) {
   menuItems.forEach((menuItem) => {
-    console.log(menuItem);
-
     menuItem.addEventListener("click", (e) => {
       e.preventDefault();
 
